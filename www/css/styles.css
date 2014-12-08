@@ -26,6 +26,9 @@ body {
 #header {
 	height: 165px;
 	background-color: #78C4A5;
+	box-shadow: 0 3px 3px 0 #365548;
+	-webkit-box-shadow: 0 3px 3px 0 #365548;
+	-moz-box-shadow: 0 3px 3px 0 #365548;
 }
 	#logo {
 		height: 165px;
@@ -37,7 +40,42 @@ body {
 		-webkit-border-radius: 47.5px/82.5px;
 		-moz-border-radius: 47.5px/82.5px;
 		box-shadow: 0 3px 3px 0 #365548;
+		-webkit-box-shadow: 0 3px 3px 0 #365548;
+		-moz-box-shadow: 0 3px 3px 0 #365548;
 	}
 	#header h2 {
-		padding: 50px 190px;
+		display: block;
+		width: 320px;
+		height: 65px;
+		padding: 50px 20px;
+		float: left;
+	}
+	#social {
+		height: 165px;
+		float: left;
+	}
+		#social ul {
+			width: 200px;
+			height: 48px;
+		}
+		#social ul li {
+			padding: 5px;
+			width: 48px;
+			height: 48px;
+			float: left;
+		}
+		#social ul li:hover {
+			cursor: pointer;
+		}
+		li.vk{
+			background: url(../images/social.png) no-repeat 5px 5px;
+		}
+		li.fb {
+			background: url(../images/social.png) no-repeat -53px 5px;
+		}
+		li.ok {
+			background: url(../images/social.png) no-repeat -110px 5px;
+		}
+	#phone {
+		float: right;
 	}
